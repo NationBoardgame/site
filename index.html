@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Nation</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
-<link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
 	<style>
 		/* Styles for the header */
 		header {
@@ -146,26 +146,18 @@
 		<section id="approach" class="approach-section">
             <div class="approach-content">
               <div class="approach-image">
-                <img src="approach-image.jpeg" alt="Approach Image">
+                <img src="approach-image.jpeg" alt="Approach Image" id="approach-img">
               </div>
               <div class="approach-text">
                 <h2 class="approach-header">Hello!</h2>
                 <p>
                   10 years in the making, we are so proud to announce the release of our game Nation.
-				
-
                 </p>
-			
               </div>
             </div>
           </section>
           
-          
-          
-		  <br>
-          
-          
-          
+          <br>
 		
 		<section>
 			<h2>Sneak Peak</h2>
@@ -181,7 +173,6 @@
 				</li>
 			</ul>
             <p>Embark on an exhilarating journey through the ages in Nation, where innovation thrives and the fate of your country hangs in the balance. With each game, a new story unfolds, beckoning you to craft your own epic tale. What daring legacy will you forge?</p>
-
 		</section>
 		
 		<section>
@@ -218,8 +209,6 @@
 					<td>More to come!</td>
 					<td>TBD</td>
 				</tr>
-				
-
 			</table>
 		</section>
 		
@@ -232,5 +221,11 @@
 	<footer>
 		<p>&copy; 2024 Nation by Game Knight Games</p>
 	</footer>
+
+    <script>
+        document.getElementById("approach-img").addEventListener("click", function() {
+            window.open("Nation_Rulebook.pdf", "_blank");
+        });
+    </script>
 </body>
 </html>
